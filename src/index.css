@@ -25,5 +25,29 @@
 }
 
 @media(max-width:768px){ 
-  
+ .todo_style{
+  display:flex;
+  flex-direction:row;
+  justify-content:left;
+  align-items:center;
+  padding:0px;
 }
+  .close_button{
+  width:20px;
+  height:0.1vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:transparent;
+  /* border-radius:50%; */
+  margin:0 15px 0 35px;
+  color:black;
+  box-shadow:5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+  font-size:1em;
+  padding:0;
+  border:none;
+}
+.close_button:hover{
+  background-color:red;
+}
+ }
